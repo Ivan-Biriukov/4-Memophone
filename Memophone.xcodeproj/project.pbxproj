@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5799C6732900780500658C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799C6722900780500658C92 /* AppDelegate.swift */; };
+		5799C6752900780500658C92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799C6742900780500658C92 /* SceneDelegate.swift */; };
+		5799C6772900780500658C92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799C6762900780500658C92 /* ViewController.swift */; };
+		5799C67A2900780500658C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5799C6782900780500658C92 /* Main.storyboard */; };
+		5799C67C2900780D00658C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5799C67B2900780D00658C92 /* Assets.xcassets */; };
+		5799C67F2900780D00658C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5799C67D2900780D00658C92 /* LaunchScreen.storyboard */; };
+		5799C69729007A7B00658C92 /* Tasty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5799C69229007A7B00658C92 /* Tasty.mp3 */; };
+		5799C69829007A7B00658C92 /* LetterU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5799C69329007A7B00658C92 /* LetterU.mp3 */; };
+		5799C69929007A7B00658C92 /* Madina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5799C69429007A7B00658C92 /* Madina.mp3 */; };
+		5799C69A29007A7B00658C92 /* Natalia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5799C69529007A7B00658C92 /* Natalia.mp3 */; };
+		5799C69B29007A7B00658C92 /* NotAProblem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5799C69629007A7B00658C92 /* NotAProblem.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5799C66F2900780500658C92 /* Memophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5799C6722900780500658C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5799C6742900780500658C92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5799C6762900780500658C92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5799C6792900780500658C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5799C67B2900780D00658C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5799C67E2900780D00658C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5799C6802900780D00658C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5799C69229007A7B00658C92 /* Tasty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tasty.mp3; sourceTree = "<group>"; };
+		5799C69329007A7B00658C92 /* LetterU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LetterU.mp3; sourceTree = "<group>"; };
+		5799C69429007A7B00658C92 /* Madina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Madina.mp3; sourceTree = "<group>"; };
+		5799C69529007A7B00658C92 /* Natalia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Natalia.mp3; sourceTree = "<group>"; };
+		5799C69629007A7B00658C92 /* NotAProblem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NotAProblem.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5799C66C2900780500658C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5799C6662900780500658C92 = {
+			isa = PBXGroup;
+			children = (
+				5799C6712900780500658C92 /* Memophone */,
+				5799C6702900780500658C92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5799C6702900780500658C92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5799C66F2900780500658C92 /* Memophone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5799C6712900780500658C92 /* Memophone */ = {
+			isa = PBXGroup;
+			children = (
+				5799C6722900780500658C92 /* AppDelegate.swift */,
+				5799C6742900780500658C92 /* SceneDelegate.swift */,
+				5799C6762900780500658C92 /* ViewController.swift */,
+				5799C6782900780500658C92 /* Main.storyboard */,
+				5799C67B2900780D00658C92 /* Assets.xcassets */,
+				5799C67D2900780D00658C92 /* LaunchScreen.storyboard */,
+				5799C6802900780D00658C92 /* Info.plist */,
+				5799C69129007A7B00658C92 /* Sounds */,
+			);
+			path = Memophone;
+			sourceTree = "<group>";
+		};
+		5799C69129007A7B00658C92 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5799C69229007A7B00658C92 /* Tasty.mp3 */,
+				5799C69329007A7B00658C92 /* LetterU.mp3 */,
+				5799C69429007A7B00658C92 /* Madina.mp3 */,
+				5799C69529007A7B00658C92 /* Natalia.mp3 */,
+				5799C69629007A7B00658C92 /* NotAProblem.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5799C66E2900780500658C92 /* Memophone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5799C6832900780D00658C92 /* Build configuration list for PBXNativeTarget "Memophone" */;
+			buildPhases = (
+				5799C66B2900780500658C92 /* Sources */,
+				5799C66C2900780500658C92 /* Frameworks */,
+				5799C66D2900780500658C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memophone;
+			productName = Memophone;
+			productReference = 5799C66F2900780500658C92 /* Memophone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5799C6672900780500658C92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5799C66E2900780500658C92 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5799C66A2900780500658C92 /* Build configuration list for PBXProject "Memophone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5799C6662900780500658C92;
+			productRefGroup = 5799C6702900780500658C92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5799C66E2900780500658C92 /* Memophone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5799C66D2900780500658C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5799C69B29007A7B00658C92 /* NotAProblem.mp3 in Resources */,
+				5799C69A29007A7B00658C92 /* Natalia.mp3 in Resources */,
+				5799C69729007A7B00658C92 /* Tasty.mp3 in Resources */,
+				5799C67F2900780D00658C92 /* LaunchScreen.storyboard in Resources */,
+				5799C69929007A7B00658C92 /* Madina.mp3 in Resources */,
+				5799C69829007A7B00658C92 /* LetterU.mp3 in Resources */,
+				5799C67C2900780D00658C92 /* Assets.xcassets in Resources */,
+				5799C67A2900780500658C92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5799C66B2900780500658C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5799C6772900780500658C92 /* ViewController.swift in Sources */,
+				5799C6732900780500658C92 /* AppDelegate.swift in Sources */,
+				5799C6752900780500658C92 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5799C6782900780500658C92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5799C6792900780500658C92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5799C67D2900780D00658C92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5799C67E2900780D00658C92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5799C6812900780D00658C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5799C6822900780D00658C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5799C6842900780D00658C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RR26756PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memophone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.IvanBiriukov.Memophone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5799C6852900780D00658C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RR26756PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memophone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.IvanBiriukov.Memophone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5799C66A2900780500658C92 /* Build configuration list for PBXProject "Memophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5799C6812900780D00658C92 /* Debug */,
+				5799C6822900780D00658C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5799C6832900780D00658C92 /* Build configuration list for PBXNativeTarget "Memophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5799C6842900780D00658C92 /* Debug */,
+				5799C6852900780D00658C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5799C6672900780500658C92 /* Project object */;
+}
